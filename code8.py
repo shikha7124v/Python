@@ -11,22 +11,22 @@ print(a.replace("Shikha", "gunnu"))  # Function for replacing any string or char
 b = "ab cd"
 print(b.split(" "))  # function for splitting out the string via passed parameter
 
-c = "it's me shikha"
-print(c.capitalize())
+c = "it's me shikha. i'm a software engineer."
+print(c.capitalize())  # function of capitalize the first letter of the string
 
 str1 = "Welcome to the console!!!"
 print(len(str1))
-print(str1.center(50))
+print(str1.center(50))  # function for alinging the string in center by parameter which is passed
 print(len(str1.center(50)))
 
 str2 = "abaabcd"
-print(str2.count("a"))
-print(str2.endswith("!!!"))
+print(str2.count("a"))  # count function is used to count the no. of times the passed charater or string came 
+print(str2.endswith("!!!"))  # endswith function checks where the string is ending with the passed parameter or not 
 print(a.endswith("!!!"))
 print(str2.endswith("b",2,5))
 
 str3 = "He's name is Dan. He is an honest man. "
-print(str3.find("is"))
+print(str3.find("is"))  # find function returns the index after finding the particular string
 print(str3.find("Dan"))
 
 print(str3.index("am"))
