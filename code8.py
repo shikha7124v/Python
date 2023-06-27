@@ -1,15 +1,15 @@
 # String Methods 
 
 a = "!!Shikha!!!!"
-print(len(a))
+print(len(a))    # length function
 print(a)
-print(a.upper())
-print(a.lower())
-print(a.rstrip("!"))
-print(a.replace("Shikha", "gunnu"))
+print(a.upper()) # Upper function
+print(a.lower()) # Lower function
+print(a.rstrip("!"))  # Function for striping out the given parameters from the end of the string 
+print(a.replace("Shikha", "gunnu"))  # Function for replacing any string or character
 
 b = "ab cd"
-print(b.split(" "))
+print(b.split(" "))  # function for splitting out the string via passed parameter
 
 c = "it's me shikha"
 print(c.capitalize())
