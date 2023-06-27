@@ -29,7 +29,6 @@ def switch(x):
 x = int(input("Enter your birthday month in integer: "))
 switch(x)
 
-
 # match x:
 #     case 1: print("Jan")
 #     case 2: print("Feb")
