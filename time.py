@@ -4,3 +4,4 @@ print(timestamp)
 
 timestamp = int(time.strftime('%H'))
 print(timestamp)
+

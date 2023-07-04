@@ -17,15 +17,3 @@ print(type(floatnum1))
 
 print(round(floatnum1))   #complete round off to integen 
 print(round(floatnum1, 2))  #round off up to 2 decimal places 
-
-import math
-
-print(math.factorial(5))
-
-print(math.ceil(2.2)) #round up
-
-print(math.floor(2.2)) #round down
-
-print(math.log(10))
-
-print(math.pi)

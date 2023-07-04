@@ -1,4 +1,4 @@
-# lists and tuples 
+# lists 
  
 Students = ["Jhon", "Marry", "Steve"]
 print(Students)
