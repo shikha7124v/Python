@@ -1,0 +1,3 @@
+import mainFunc
+
+mainFunc.func()
