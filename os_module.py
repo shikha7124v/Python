@@ -13,8 +13,11 @@ import os
 folders = os.listdir("data")
 print(folders)
 
-for folder in folders:
-    print(folder)
+print(folders)
 
 for folder in folders:
-    print(os.listdir(f"data/(folder)"))
+    print(folder)
+    print(os.listdir(f"data/{folder}"))
+
+print(os.getcwd())   #to get the current working directory
+os.chdir("/Users") #to change the dierctory
