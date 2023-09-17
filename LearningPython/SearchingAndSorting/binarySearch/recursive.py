@@ -18,3 +18,7 @@ if result != -1:
     print("Element is present at index", str(result))
 else:
     print("Element is not present in array")
+
+# resursion creates call stack 
+# time complexity - O(logn)
+# space complexity - O(logn)
